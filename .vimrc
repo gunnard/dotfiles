@@ -1,3 +1,4 @@
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -14,6 +15,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'othree/html5.vim'
 Plugin 'cakebaker/scss-syntax.vim'
+
 call vundle#end()            " required
 execute pathogen#infect()
 autocmd vimenter * NERDTree
