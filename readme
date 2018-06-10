@@ -1,3 +1,12 @@
+#pants#
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+cd ~/.vim/bundle
+git clone https://github.com/mattn/emmet-vim.git
+mkdir ~/.vim/autoload
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+
 # -------- TO Install Vundle -------- #
 
 Put this at the top of your .vimrc to use Vundle. Remove plugins you don't need, they are for illustration purposes.
@@ -22,10 +31,3 @@ Plugin 'tpope/vim-sensible'
 Plugin 'othree/html5.vim'
 Plugin 'cakebaker/scss-syntax.vim'
 .vimrc
-
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-cd ~/.vim/bundle
-git clone https://github.com/mattn/emmet-vim.git
-mkdir ~/.vim/autoload
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
