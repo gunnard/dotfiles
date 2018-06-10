@@ -14,12 +14,10 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-
-.vimrc
-
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-cd ~/.vim/bundle
-git clone https://github.com/mattn/emmet-vim.git
-mkdir ~/.vim/autoload
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-sensible'
+Plugin 'othree/html5.vim'
+Plugin 'cakebaker/scss-syntax.vim'
