@@ -118,4 +118,6 @@ EDITOR=vim
 export EDITOR
 alias tmux="/usr/bin/tmux"
 alias myip="~/dotfiles/myip.sh"
+alias startwork="sudo mount -t ecryptfs ~/work ~/work -o key=passphrase,ecryptfs_cipher=aes,ecryptfs_key_bytes=32,ecryptfs_passthrough=no,ecryptfs_enable_filename_crypto=yes"
+alias stopwork="sudo umount ~/work"
 
