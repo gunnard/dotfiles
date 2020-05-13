@@ -116,5 +116,6 @@ if ! shopt -oq posix; then
 fi
 EDITOR=vim
 export EDITOR
-alias tmux="TERM=xterm-256color /usr/bin/tmux"
+alias tmux="/usr/bin/tmux"
+alias myip="~/dotfiles/myip.sh"
 
