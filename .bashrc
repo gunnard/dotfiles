@@ -116,8 +116,14 @@ if ! shopt -oq posix; then
 fi
 EDITOR=vim
 export EDITOR
+export BROWSER=/usr/bin/brave-browser-stable
 alias tmux="/usr/bin/tmux"
 alias myip="~/dotfiles/myip.sh"
 alias startwork="sudo mount -t ecryptfs ~/work ~/work -o key=passphrase,ecryptfs_cipher=aes,ecryptfs_key_bytes=32,ecryptfs_passthrough=no,ecryptfs_enable_filename_crypto=yes"
 alias stopwork="sudo umount ~/work"
+alias vpnup="sudo protonvpn c"
 
+
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+neofetch
