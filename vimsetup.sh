@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 cd ~/.vim/bundle
