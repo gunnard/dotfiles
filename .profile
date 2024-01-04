@@ -25,3 +25,4 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+export BASH_SILENCE_DEPRECATION_WARNING=1
